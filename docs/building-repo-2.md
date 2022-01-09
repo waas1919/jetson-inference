@@ -17,6 +17,7 @@ If you aren't using the [Docker container](aux-docker.md), here's a condensed fo
 $ sudo apt-get update
 $ sudo apt-get install git cmake libpython3-dev python3-numpy
 $ git clone --recursive https://github.com/dusty-nv/jetson-inference
+$ git submodule update --init
 $ cd jetson-inference
 $ mkdir build
 $ cd build
